@@ -16,17 +16,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Environment Variables
 
-Ensure the `.env.local` file has required environment variables:
-
-```
-DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/blitz-temp
-```
-
-Ensure the `.env.test.local` file has required environment variables:
-
-```
-DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/blitz-temp_test
-```
+remember to make two dbs shadow dbs and your normal db this is prisma config needed requirements
+current db dashboard = https://data.heroku.com/datastores/539557b1-f481-4a2a-9e9a-9e4972892db1
 
 ## Tests
 
